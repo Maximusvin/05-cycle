@@ -33,23 +33,23 @@ let positiveNumber = 0;
 let negativeNumber = 0;
 let zero = 0;
 
-// for (let i = 0; i < 8; i++) {
-//   let userCount = +prompt("Введіть будь-яке число").trim();
+for (let i = 0; i < 8; i++) {
+  let userCount = +prompt("Введіть будь-яке число").trim();
 
-//   switch (true) {
-//     case userCount > 0:
-//       positiveNumber += 1;
-//       break;
-//     case userCount < 0:
-//       negativeNumber += 1;
-//       break;
-//     case userCount === 0:
-//       zero += 1;
-//       break;
-//     default:
-//       console.log("Щось пішло не так");
-//   }
-// }
+  switch (true) {
+    case userCount > 0:
+      positiveNumber += 1;
+      break;
+    case userCount < 0:
+      negativeNumber += 1;
+      break;
+    case userCount === 0:
+      zero += 1;
+      break;
+    default:
+      console.log("Щось пішло не так");
+  }
+}
 
 alert(
   `Статистика: позитивних: ${positiveNumber}, негативних: ${negativeNumber}, нуль: ${zero},`
